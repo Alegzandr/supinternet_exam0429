@@ -29,6 +29,8 @@
 </header>
 
 <main role="main" class="container">
+    <?php if(isset($title)){ echo('<h1>' . $title . '</h1><hr>'); } ?>
+
     <?php if(isset($body)){ echo($body); } ?>
 </main>
 

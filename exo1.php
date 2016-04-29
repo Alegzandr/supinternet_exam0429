@@ -37,8 +37,6 @@ if (empty($_SESSION)) {
 // Rendering the template
 $title = 'Boggle';
 $body = '
-    <h1>Boggle</h1>
-    <hr>
     <h3>Voici votre grille :</h3>
     <table class="table-bordered">
         <tr>
