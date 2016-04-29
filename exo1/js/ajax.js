@@ -1,8 +1,8 @@
 $(function () {
-    $('.error').remove();
-    $('.win').remove();
-
     $('form[name="game"').submit(function () {
+        $('.error').remove();
+        $('.win').remove();
+
         $.ajax({
             url: '/exo1/validate.php',
             type: 'post',
@@ -10,10 +10,10 @@ $(function () {
             dataType: 'json',
             success: function (data) {
                 if (data.error) {
-                    $('body').append(data.error);
+                    $('main').append(data.error);
                 }
                 else {
-                    $('body').append(data.win);
+                    $('main').append(data.win);
                 }
             }
         });

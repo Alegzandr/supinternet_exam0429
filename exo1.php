@@ -63,6 +63,7 @@ $body = '
     </form>
     <br>
     <a href="/exo1/retry.php" class="invisible-link"><button>Recommencer</button></a>
+    <br>
 ';
 $js = '<script src="/exo1/js/ajax.js"></script>';
 
