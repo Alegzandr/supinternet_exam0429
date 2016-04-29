@@ -13,3 +13,8 @@ body {
 .invisible-link, .invisible-link:hover, .invisible-link:active {
     color: #2c3e50;
 }
+
+input[type="checkbox"] {
+    transform: scale(1.5);
+    margin-left: 10px;
+}
