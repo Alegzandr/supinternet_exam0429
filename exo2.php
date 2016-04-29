@@ -1,5 +1,7 @@
 <?php
 
+require_once('exo2/Nim.php');
+
 $title = 'Jeu de Nim';
 
 $body = '
