@@ -1,6 +1,6 @@
 <?php
 
 $title = 'Accueil';
-$body = '<h1>Examen LAMP - Alexandre Farrenq</h1>';
+$body = '<h3>Examen LAMP - Alexandre Farrenq</h3>';
 
 require_once('utils/base.php');
