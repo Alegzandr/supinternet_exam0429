@@ -1,0 +1,15 @@
+body {
+    margin-top: 100px;
+}
+
+.navbar-toggle {
+    visibility: hidden;
+}
+
+.table-bordered tr td {
+    padding: 10px;
+}
+
+.invisible-link, .invisible-link:hover, .invisible-link:active {
+    color: #2c3e50;
+}
