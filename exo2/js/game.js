@@ -19,6 +19,16 @@ $(function () {
             $('input[name="match13"]').removeAttr("disabled");
         }
 
+        $.ajax({
+            url: '/exo2/submission.php',
+            type: 'post',
+            data: $(this).serialize(),
+            dataType: 'json',
+            success: function (data) {
+
+            }
+        });
+
         return false;
     });
 });
